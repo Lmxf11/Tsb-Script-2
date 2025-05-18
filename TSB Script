@@ -1,0 +1,284 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+   Name = "Lista de Moveset do miguelcp11",
+   Icon = 0, 
+   LoadingTitle = "Lista linda de moviset oliginal :)",
+   LoadingSubtitle = "miguelcp11",
+   Theme = "Black", 
+
+   DisableRayfieldPrompts = true,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = "notascripthehe", -- Create a custom folder for your hub/game
+      FileName = "okmaybeitsascript"
+   },
+
+   Discord = {
+      Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+
+   KeySystem = false, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "TSB Movesets",
+      Subtitle = "Key System",
+      Note = "Visit This Website For The Key", -- Use this to tell the user how to get a key
+      FileName = "GoldenHead is the best12345678", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = {"LSDTRIP"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+   }
+})
+
+local GoldenTab = Window:CreateTab("Moveset comp", 4483362458) -- Title, Image
+local SaitamaSection = GoldenTab:CreateSection("Saitama Movesets")
+
+local Button = GoldenTab:CreateButton({
+   Name = "JJS Gojo",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/jjsgojov3/main/SaitamaToGojoV3_SOURCE-obfuscated_2.txt",true))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Luffy",
+   Callback = function()
+      loadstring(game:HttpGet("https://github.com/aggiealledge/obfuscated-scripts/raw/refs/heads/main/Protected_7732857839120517.txt"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Shinjin",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Shinji%20tp%20exploit'))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Manga Gojo",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/BaldyToSorcerer/refs/heads/main/LatestV2.lua"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Hakari",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/eEDYWj8p"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Yuji",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/hmVdeZRp"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Jun",
+   Callback = function()
+      loadstring(game:HttpGet("https://gist.githubusercontent.com/GoldenHeads2/f66279000c58a020e894a6db44914838/raw/62e53e1acacec0b38b43cd0f594292c32e09c39b/gistfile1.txt"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Peenar",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/SmilerVinix/GetDown-Moveset/refs/heads/main/GetDown%20Moveset"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Jin",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/hamletirl/sunjingwoo/refs/heads/main/sunjingwoo"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "osaska",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/JayXSama/ray-makk/refs/heads/main/True%20Nosakatan"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Fireman",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/nil071n/fireman/refs/heads/main/TSB"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Mahito",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Mahitotsbupdate"))()
+   end,
+})
+
+local GarouSection = GoldenTab:CreateSection("Garou Movesets")
+
+local Button = GoldenTab:CreateButton({
+   Name = "Cosmic",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/kT3Z8rse"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Okarun",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Hero%20hunter%20to%20okarun%20fr"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Garou X KJ",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/garoukjv1maybeidk/main/Protected_2460290213750059.txt",true))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Angel",
+   Callback = function()
+      loadstring(game:HttpGet("https://gist.githubusercontent.com/GoldenHeads2/93ddb1b1e2935bc76fbc37aae8985ad2/raw/47dfa45e1e8f1933a1c031b198d40c3cd1499fa2/gistfile1.txt"))() 
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Humbled's GF",
+   Callback = function()
+      getgenv().color = Color3.new(255, 0, 0) -- customize colour vfx 
+
+      loadstring(game:HttpGet("https://paste.ee/r/7FuWC"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Minos Prime",
+   Callback = function()
+      _G.SkipIntro = true -- set to true if u want to skip minos prime intro
+      _G.Night = false -- set to true if u want night
+
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/S1gmaGuy/MinosPrimeFixed/refs/heads/main/ThefixIsSoSigma"))() 
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Star Glitcher (Euphoria)",
+   Callback = function()
+      loadstring(game:HttpGet("https://paste.ee/r/mmQkO"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Dio",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ThanakritScript/StandUserCilent/refs/heads/main/DioBeta.lua",true))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Mastery Deku",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/xKextYP5"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "A-Train",
+   Callback = function()
+      loadstring(game:HttpGet("https://paste.ee/r/AnZ5j"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Goku",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Goku-Moveset-V2-17977"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Shinjuku Yuji",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Yuji%20early%20access"))()
+   end,
+})
+
+local SonicSection = GoldenTab:CreateSection("Sonic Movesets")
+
+local Button = GoldenTab:CreateButton({
+   Name = "Multiple moves",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/SG_DEMO.lua"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "1x1x1",
+   Callback = function()
+      loadstring(game:HttpGet("https://gist.githubusercontent.com/GoldenHeads2/900e87ffc32f3c740930ccb106dd6abf/raw/358c5bf0f0a6aa25946718288dab006e3ae7e1d4/gistfile1.txt"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Chainsaw Man",
+   Callback = function()
+      loadstring(game:HttpGet("https://gist.githubusercontent.com/GoldenHeads2/0fd8d36993c850f3fac89e5adf793076/raw/ab4f5a42bd0b2e24a32a46301d533ea849ca771c/gistfile1.txt"))()
+   end,
+})
+
+local MetalSection = GoldenTab:CreateSection("Metal Bat Movesets")
+
+local Button = GoldenTab:CreateButton({
+   Name = "Reaper",
+   Callback = function()
+      getgenv().Music = false 
+      --Setting this to false usually fixes most executors
+      --also it helps load time a little bit
+      getgenv().AttackQuality = 'High'
+      --Set to Low,High
+
+      getgenv().ConstantSpeed = false
+      --if you want your speed to be constant
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
+   end,
+})
+
+local AtomicSection = GoldenTab:CreateSection("Atomic Samurai Movesets")
+
+local Button = GoldenTab:CreateButton({
+   Name = "Sukuna",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Toji",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Giahao135/Tojinew/refs/heads/main/Update"))()
+   end,
+})
+
+local Button = GoldenTab:CreateButton({
+   Name = "Yuta",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/damir512/AtomicToYuta/main/Protected_8122576078506000.txt"))()
+   end,
+})
+
+local AtomicSection = GoldenTab:CreateSection("Martial Artist Movesets")
+
+local Button = GoldenTab:CreateButton({
+   Name = "Deku",
+   Callback = function()
+      loadstring(game:HttpGet("https://github.com/aggiealledge/obfuscated-scripts/raw/refs/heads/main/deku%20suiryu%20thingy.txt"))()
+   end,
+})
